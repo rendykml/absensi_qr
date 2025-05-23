@@ -21,8 +21,8 @@ class AddSuperadmin extends Migration
 
         // INSERT INITIAL SUPERADMIN
         $email = 'adminsuper@gmail.com';
-        $username = 'superadmin';
-        $password = 'superadmin';
+        $username = 'rendyganteng';
+        $password = '123123';
 
         $encryptedPassword = Password::hash($password);
 
